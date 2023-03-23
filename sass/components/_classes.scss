@@ -1,0 +1,77 @@
+.trainings.section {
+  background-image: url(./../img/about-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $background-color;
+  .section-title {
+    color: $background-color;
+  }
+}
+
+.trainings--list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.training--list__item {
+  display: block;
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    width: 33%;
+  }
+}
+
+.training--list__item:not(:last-child){
+  @media screen and (min-width: 768px) {
+    margin-right: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-right: 60px;
+  }
+}
+
+.trainings--list__link {
+  @extend %flex-row;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  color: $primary-text-color;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  background: $background-color;
+  border-radius: 10px;
+  transition: box-shadow $animation-timing 250ms, background-color $animation-timing 250ms, color $animation-timing 250ms;
+  @media screen and (min-width: 768px) {
+    height: 226px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 20px;
+   line-height: 28px;
+  }
+  &:hover {
+    color: $background-color;
+    background: $main-color;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .item--tumb {
+    @extend %flex-row;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
+    border: 2px solid currentColor;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: currentColor;
+    .trainings__icon {
+      fill: currentColor;
+      width: 68px;
+      height: 68px;
+    }
+  }
+}

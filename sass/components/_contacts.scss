@@ -1,0 +1,11 @@
+.contacts .thumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts .btn--list,
+address {
+  margin-bottom: 20px;
+}
