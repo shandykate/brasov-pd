@@ -4,7 +4,7 @@
   color: $background-color;
   background: $primary-text-color;
   .footer--thumb {
-    @extend %flex-row;
+    @extend %flex;
     .logo--footer {
       width: 40px;
       height: 40px;

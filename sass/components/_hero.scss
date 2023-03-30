@@ -39,11 +39,13 @@
 .slider .slick-arrow.slick-prev {
   left: 20px;
   background: url(./../img/left.png) 0 0 / 100% no-repeat;
+  cursor: pointer;
 }
 
 .slider .slick-arrow.slick-next {
   right: 20px;
   background: url(./../../img/right.png) 0 0 / 100% no-repeat;
+  cursor: pointer;
 }
 
 .slider__item {

@@ -1,7 +1,3 @@
-.about.section {
-  background: $primary-text-color;
-}
-
 .about .item-title {
   display: block;
   text-align: center;
@@ -15,7 +11,7 @@
 }
 
 .about--list__item {
-  @extend %flex-row;
+  @extend %flex;
   flex-direction: column;
   width: 100%;
   padding: 20px;

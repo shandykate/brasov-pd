@@ -1,12 +1,10 @@
-$main-color: #2c3e11;
 $background-color: #dadada;
 $primary-text-color: #2f2f2f;
-$accent-color: #3d2e08;
+$accent-color: #1f410f;
 $header-color: #4d5c34;
-
 $animation-timing: cubic-bezier(0.4, 0, 0.2, 1);
 
-%flex-row {
+%flex {
     display: flex;
     justify-content: center;
     align-items: center;

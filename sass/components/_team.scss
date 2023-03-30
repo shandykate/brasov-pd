@@ -3,45 +3,30 @@
 }
 
 .team--list {
-  display: flex;
-  flex-direction: column;
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+display: flex;
 }
 
 .team--list__item {
   font-size: 14px;
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 40px) / 2);
     width: 50%;
   }
   @media screen and (min-width: 1280px) {
-    margin-bottom: 60px;
-    padding: 40px 0;
     font-size: 16px;
     line-height: 26px;
   }
   .team--name {
     margin-bottom: 20px;
-    font-size: 20px;
     text-transform: uppercase;
     color: black;
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 40px;
-    }
   }
   .team--img {
     display: block;
     width: 100%;
     margin: 0 auto 20px auto;
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 20px;
-    }
   }
   
   .team--text {

@@ -1,11 +1,15 @@
 .contacts .thumb {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ @extend %flex;
+ flex-direction: column;
+ .btn--list {
+  margin-bottom: 20px;
 }
-
-.contacts .btn--list,
 address {
   margin-bottom: 20px;
 }
+iframe {
+  width: 100%;
+}
+}
+
+

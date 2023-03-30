@@ -1,22 +1,11 @@
-.trainings.section {
-  background-image: url(./../img/about-bg.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: $background-color;
-  .section-title {
-    color: $background-color;
-  }
-}
-
-.trainings--list {
+.classes--list {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
   }
 }
 
-.training--list__item {
+.classes--list__item {
   display: block;
   margin-bottom: 20px;
   @media screen and (min-width: 768px) {
@@ -24,7 +13,7 @@
   }
 }
 
-.training--list__item:not(:last-child){
+.classes--list__item:not(:last-child){
   @media screen and (min-width: 768px) {
     margin-right: 40px;
   }
@@ -33,8 +22,8 @@
   }
 }
 
-.trainings--list__link {
-  @extend %flex-row;
+.classes--list__link {
+  @extend %flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
@@ -56,11 +45,11 @@
   }
   &:hover {
     color: $background-color;
-    background: $main-color;
+    background: $accent-color;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   }
   .item--tumb {
-    @extend %flex-row;
+    @extend %flex;
     justify-content: center;
     width: 120px;
     height: 80px;
@@ -68,7 +57,7 @@
     border-radius: 5px;
     margin-bottom: 20px;
     color: currentColor;
-    .trainings__icon {
+    .classes__icon {
       fill: currentColor;
       width: 68px;
       height: 68px;
