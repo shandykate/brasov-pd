@@ -10,8 +10,8 @@
   width: calc((100% - 2 * 20px) / 2);
   padding: 10px;
   margin: 10px;
-  border: 3px solid #d19694;
-  color: #d19694;
+  border: 3px solid #c3d194;
+  color: #c3d194;
   text-align: center;
 
   @media screen and (min-width: 768px) {
@@ -24,8 +24,8 @@
 }
 
 .price--block:nth-child(1) {
-  color: #987281;
-  border: 3px solid #987281;
+  color: #87dd78;
+  border: 3px solid #87dd78;
 }
 
 .price--block:nth-child(2) {
@@ -39,8 +39,8 @@
 }
 
 .price--block:nth-child(4) {
-  color: #ad6f9b;
-  border: 3px solid #ad6f9b;
+  color: #6f9fad;
+  border: 3px solid #6f9fad;
 }
 
 .price--block:nth-child(6) {
@@ -49,53 +49,53 @@
 }
 
 .price--block:nth-child(7) {
-  color: #e2b78f;
-  border: 3px solid #e2b78f;
+  color: #8fe2c1;
+  border: 3px solid #8fe2c1;
 }
 
 .price--block:nth-child(8) {
-  color: #987281;
-  border: 3px solid #987281;
+  color: #9ea1d7;
+  border: 3px solid #9ea1d7;
 }
 
 .price--block:nth-child(9) {
-  color: #ad6f9b;
-  border: 3px solid #ad6f9b;
+  color: #b6b6b6;
+  border: 3px solid #b6b6b6;
 }
 
 .price--block:nth-child(10) {
-  color: #ab9eac;
-  border: 3px solid #ab9eac;
-}
-
-.price--block:nth-child(11) {
-  color: #987281;
-  border: 3px solid #987281;
-}
-
-.price--block:nth-child(12) {
   color: #e2b78f;
   border: 3px solid #e2b78f;
 }
 
-.price--block:nth-child(13) {
+.price--block:nth-child(11) {
   color: grey;
   border: 3px solid grey;
 }
 
+.price--block:nth-child(12) {
+  color: #6f9fad;
+  border: 3px solid #6f9fad;
+}
+
+.price--block:nth-child(13) {
+  color: #b6b6b6;
+  border: 3px solid #b6b6b6;
+}
+
 .price--block:nth-child(14) {
-  color: #d19694;
-  border: 3px solid #d19694;
+  color: #6f9fad;
+  border: 3px solid #6f9fad;
 }
 
 .price--block:nth-child(15) {
-  color: #ad6f9b;
-  border: 3px solid #ad6f9b;
+  color: #9ea1d7;
+  border: 3px solid #9ea1d7;
 }
 
 .price--block:nth-child(16) {
-  color: #b6b6b6;
-  border: 3px solid #b6b6b6;
+  color: #87dd78;
+  border: 3px solid #87dd78;
 }
 
 .price--name {
